@@ -7,7 +7,7 @@ class Payments extends Component {
     render() {
         return (
             <StripeCheckout
-                name="Emaily"
+                name="SurveyCreator"
                 description="Rs. 500 for 5 email credits"
                 amount={50000}
                 currency="INR"
